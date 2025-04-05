@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const isProd = process.env.NODE_ENV === 'production'
+
+const nextConfig = {
   output: 'export',
-  basePath: '',
+  basePath: isProd ? '' : '',
+  assetPrefix: isProd ? '' : '',
   trailingSlash: true,
 };
 
