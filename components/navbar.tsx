@@ -71,7 +71,7 @@ export default function Navbar() {
           showNavbar ? "opacity-100 transform translate-y-0" : "opacity-0 transform -translate-y-full"
         }`}
       >
-        <ul className="flex justify-center space-x-8 mx-auto">
+        <ul className="flex flex-wrap justify-center gap-x-4 gap-y-2 max-w-full px-4">
           {navItems.map((item) => (
             <li key={item.name}>
               <a
@@ -95,7 +95,7 @@ export default function Navbar() {
           isBottom ? "opacity-100 transform translate-y-0" : "opacity-0 transform translate-y-full"
         }`}
       >
-        <ul className="flex justify-center space-x-8 mx-auto">
+        <ul className="flex flex-wrap justify-center gap-x-4 gap-y-2 max-w-full px-4">
           {navItems.map((item) => (
             <li key={item.name}>
               <a
