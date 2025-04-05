@@ -6,6 +6,9 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   assetPrefix: isProd ? '' : '',
+  images: {
+	  unoptimized:true,
+  },
 };
 
 export default nextConfig;
