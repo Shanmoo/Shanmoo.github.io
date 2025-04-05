@@ -21,10 +21,12 @@ jobs:
         run: npm install
 
       - name: Build static site
+        run: npm run build
+        
+      - name: Static confic files
         run: |
-          npm run build
-          echo "surya.nyc" > ./out/CNAME
-          echo "" > ./out/.nojekyll
+          echo "surya.nyc" > out/CNAME
+          echo "" > out/.nojekyll
 
       - name: Deploy to GitHub Pages
         run: |
