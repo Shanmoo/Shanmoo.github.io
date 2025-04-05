@@ -19,13 +19,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        
-      - name: Install tailwindcss
-        run: npm install -D tailwindcss @tailwindcss/postcss postcss
 
       - name: Build static site
         run: |
           npm run build
+          echo "surya.nyc" > ./out/CNAME
           echo "" > ./out/.nojekyll
 
       - name: Deploy to GitHub Pages
