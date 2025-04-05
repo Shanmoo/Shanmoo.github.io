@@ -44,7 +44,7 @@ export default function Contact() {
           <p className="text-center text-gray-300">
             Email:{" "}
             <a href="mailto:surya.s@columbia.edu" className="text-columbia-blue hover:underline">
-              your.email@example.com
+              surya.s@columbia.edu
             </a>
           </p>
         </ScrollAnimationWrapper>
