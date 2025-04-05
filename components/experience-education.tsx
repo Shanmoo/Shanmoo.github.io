@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
-import ScrollAnimationWrapper from "./ScrollAnimationWrapper" // adjust path if needed
+import ScrollAnimationWrapper from "./scroll-animation-wrapper"
 
 type Experience = {
   company: string
