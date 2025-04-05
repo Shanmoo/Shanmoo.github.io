@@ -6,21 +6,27 @@ import ScrollAnimationWrapper from "./scroll-animation-wrapper"
 
 const projects = [
   {
-    title: "Interactive 3D Portfolio",
-    description: "A portfolio website showcasing 3D models and animations.",
-    image: "/placeholder.svg?height=300&width=400",
+    title: "Custom Robot",
+    description: "Designed, 3D printed, and assembled a full custom robot that can walk.",
+    image: "/robot.jpg?height=300&width=400",
     link: "https://example.com/project1",
   },
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce solution with real-time inventory management.",
-    image: "/placeholder.svg?height=300&width=400",
+    title: "Zeromouse",
+    description: "Designed and Manufactured the lightest mouse in the world",
+    image: "/zeromouse_portfolio.png?height=300&width=400",
     link: "https://example.com/project2",
   },
   {
-    title: "Data Visualization Dashboard",
-    description: "An interactive dashboard for visualizing complex datasets.",
-    image: "/placeholder.svg?height=300&width=400",
+    title: "Rigid Symmetry Device (Senior Design Project)",
+    description: "Created a rehabillitation device to address ACL injury",
+    image: "/rsd.png?height=300&width=400",
+    link: "https://example.com/project3",
+  },
+  {
+    title: "Helping Hands Project",
+    description: "Designed, Printed, and Shipped prosthetic hands for children",
+    image: "/hhp.png?height=300&width=400",
     link: "https://example.com/project3",
   },
 ]
@@ -32,7 +38,7 @@ export default function Projects() {
         <ScrollAnimationWrapper>
           <h2 className="text-4xl font-bold mb-10 text-center">Projects</h2>
         </ScrollAnimationWrapper>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {projects.map((project, index) => (
             <ScrollAnimationWrapper key={index} delay={index * 200}>
               <div className="project-card rounded-lg overflow-hidden relative h-64">

@@ -23,14 +23,12 @@ export default function AboutMe() {
           <div className="md:w-full md:pl-12">
             <ScrollAnimationWrapper delay={400}>
               <p className="text-lg text-gray-300 mb-6">
-                I&apos;m a passionate software engineer with a focus on creating immersive web experiences. With expertise in
-                frontend development and 3D graphics, I strive to push the boundaries of what&apos;s possible on the web.
+                I&apos;m an Aspiring biomedical engineer passionate about designing accessible healthcare solutions that serve marginalized and underrepresented communities.
               </p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper delay={600}>
               <p className="text-lg text-gray-300">
-                When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects,
-                or enjoying outdoor activities to recharge my creative energy.
+                With a strong focus on human-centered design and system optimization, I&apos;m eager to join the product development space and grow into a product management role where innovation meets impact.
               </p>
             </ScrollAnimationWrapper>
           </div>

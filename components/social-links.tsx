@@ -4,9 +4,9 @@ import { useState } from "react"
 import { Linkedin, Mail, FileText } from "lucide-react"
 
 const socialLinks = [
-  { icon: Linkedin, href: "https://www.linkedin.com/in/yourprofile", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
-  { icon: FileText, href: "/your-resume.pdf", label: "Resume" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/surishan", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:surya.s@columbia.edu", label: "Email" },
+  { icon: FileText, href: "/SuryaShanmugam.pdf", label: "Resume" },
 ]
 
 export default function SocialLinks() {

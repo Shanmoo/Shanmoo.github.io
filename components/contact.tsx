@@ -10,20 +10,20 @@ export default function Contact() {
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper delay={200}>
           <p className="text-center text-gray-300 mb-8 max-w-2xl mx-auto">
-            I&apos;m always open to new opportunities and collaborations. Whether you have a project in mind or just want to
-            chat about technology, feel free to reach out!
+            I&apos;m always open to new opportunities and collaborations.
+            Feel free to reach out!
           </p>
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper delay={400}>
           <div className="flex justify-center space-x-8 mb-8">
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:surya.s@columbia.edu"
               className="text-columbia-blue hover:text-blue-400 transition-colors"
             >
               <Mail className="w-8 h-8" />
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Shanmoo"
               target="_blank"
               rel="noopener noreferrer"
               className="text-columbia-blue hover:text-blue-400 transition-colors"
@@ -31,7 +31,7 @@ export default function Contact() {
               <GitHub className="w-8 h-8" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/surishan"
               target="_blank"
               rel="noopener noreferrer"
               className="text-columbia-blue hover:text-blue-400 transition-colors"
@@ -43,7 +43,7 @@ export default function Contact() {
         <ScrollAnimationWrapper delay={600}>
           <p className="text-center text-gray-300">
             Email:{" "}
-            <a href="mailto:your.email@example.com" className="text-columbia-blue hover:underline">
+            <a href="mailto:surya.s@columbia.edu" className="text-columbia-blue hover:underline">
               your.email@example.com
             </a>
           </p>

@@ -169,7 +169,7 @@ export default function StarBackground() {
           // Only rotate if scrolling
           if (scrollRef.current.isScrolling) {
             // Adjust rotation speed and direction based on scroll
-            angle += scrollRef.current.direction * 1
+            angle += scrollRef.current.direction * .75
           }
 
           sunRef.current.style.transform = `rotate(${angle}deg)`
