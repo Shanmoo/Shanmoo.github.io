@@ -33,9 +33,9 @@ export default function Home() {
               href="/SuryaShanmugam.pdf"
               target="_blank"
               rel="noopener noreferrer"
-			  className="inline-flex justify-center items-center mb-6 transition-transform duration-300 hover:scale-110 group"
+              className="text-gray-400 hover:text-white transition-transform duration-300 ease-in-out hover:scale-110 flex flex-col items-center"
             >
-              <FileText className="w-8 h-8 text-gray-400 group-hover:animate-wiggle" />
+              <FileText className="w-8 h-8" />
               <span className="text-xs mt-1">Resume</span>
             </a>
 
