@@ -12,7 +12,7 @@ export default function AboutMe() {
           <ScrollAnimationWrapper delay={200}>
             <div className="md:w-full mb-8 md:mb-0 flex justify-center">
               <Image
-                src="/placeholder.svg?height=300&width=300"
+                src="/me.jpeg?height=300&width=300"
                 alt="Your Name"
                 width={300}
                 height={300}
@@ -28,7 +28,15 @@ export default function AboutMe() {
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper delay={600}>
               <p className="text-lg text-gray-300">
-                With a strong focus on human-centered design and system optimization, I&apos;m eager to join the product development space and grow into a product management role where innovation meets impact.
+                I&apos;m currently finishing my Master&apos;s in Biomedical Engineering at{" "}
+				<span style={{ color: "#9bcbff" }}>Columbia University</span>, graduating in December 2025. I&apos;m proud to have had the privilege to complete my Bachelor&apos;s at{" "}
+				<span style={{ color: "#9bcbff" }}>UNC Chapel Hill</span>, and to have had the opportunity to work in the Biomedical industry at{" "}
+				<span style={{ color: "#9bcbff" }}>Fujifilm Healthcare</span> in RTP. 
+              </p>
+            </ScrollAnimationWrapper>
+			<ScrollAnimationWrapper delay={600}>
+              <p className="text-lg text-gray-300">
+                With a strong focus on human-centered design and system optimization, I&apos;m eager to join the product development space where innovation meets impact.
               </p>
             </ScrollAnimationWrapper>
           </div>
