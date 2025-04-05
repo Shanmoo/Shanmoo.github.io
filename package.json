@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "predeploy": "npm run build && copy CNAME out\\CNAME",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d out",
     "build": "next build",
 	"export": "next export",
