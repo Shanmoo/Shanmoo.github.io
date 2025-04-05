@@ -17,7 +17,7 @@ jobs:
       run: npm install
     - name: Build static site
       run: npm run build
-      echo "surya.nyc" > out/CNAME
+      echo "surya.nyc" > ./out/CNAME
       npm run deploy
     - name: Deploy to GitHub Pages
       run: |
