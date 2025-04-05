@@ -7,6 +7,7 @@ import AboutMe from "@/components/about-me"
 import Contact from "@/components/contact"
 import SocialLinks from "@/components/social-links"
 import SectionDivider from "@/components/section-divider"
+import { FileText } from "lucide-react"
 
 export default function Home() {
   return (
@@ -23,18 +24,35 @@ export default function Home() {
           <p className="text-xl text-gray-300 max-w-2xl mx-auto px-4">
             Engineering accessible healthcare through human-centered design.
           </p>
-		  <div className="mt-10 animate-bounce text-gray-400 text-sm flex flex-col items-center">
-			<span>Scroll to explore</span>
-			<svg
-				className="w-5 h-5 mt-1"
-				fill="none"
-				stroke="currentColor"
-				strokeWidth="2"
-				viewBox="0 0 24 24"
-			>
-				<path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-			</svg>
-		  </div>
+
+          {/* Resume + Scroll text */}
+          <div className="mt-10 flex flex-col items-center space-y-6">
+
+            {/* Resume Icon */}
+            <a
+              href="/SuryaShanmugam.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-transform duration-300 ease-in-out animate-wiggle-slow hover:scale-110 flex flex-col items-center"
+            >
+              <FileText className="w-8 h-8" />
+              <span className="text-xs mt-1">Resume</span>
+            </a>
+
+            {/* Scroll to explore */}
+            <div className="animate-bounce text-gray-400 text-sm flex flex-col items-center">
+              <span>Scroll to explore</span>
+              <svg
+                className="w-5 h-5 mt-1"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -52,8 +70,6 @@ export default function Home() {
 
       <SectionDivider />
       <Contact />
-
     </main>
   )
 }
-
