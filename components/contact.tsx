@@ -8,13 +8,13 @@ export default function Contact() {
         <ScrollAnimationWrapper>
           <h2 className="text-4xl font-bold mb-10 text-center">Contact</h2>
         </ScrollAnimationWrapper>
-        <ScrollAnimationWrapper delay={200}>
+        <ScrollAnimationWrapper delay={600}>
           <p className="text-center text-gray-300 mb-8 max-w-2xl mx-auto">
             I&apos;m always open to new opportunities and collaborations.
             Feel free to reach out!
           </p>
         </ScrollAnimationWrapper>
-        <ScrollAnimationWrapper delay={400}>
+        <ScrollAnimationWrapper delay={800}>
           <div className="flex justify-center space-x-8 mb-8">
             <a
               href="mailto:surya.s@columbia.edu"
@@ -40,7 +40,7 @@ export default function Contact() {
             </a>
           </div>
         </ScrollAnimationWrapper>
-        <ScrollAnimationWrapper delay={600}>
+        <ScrollAnimationWrapper delay={1000}>
           <p className="text-center text-gray-300">
             Email:{" "}
             <a href="mailto:surya.s@columbia.edu" className="text-columbia-blue hover:underline">

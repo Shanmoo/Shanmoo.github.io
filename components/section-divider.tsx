@@ -17,12 +17,12 @@ export default function SectionDivider({ id }: SectionDividerProps) {
     if (!ctx) return
 
     canvas.width = window.innerWidth
-    canvas.height = 100
+    canvas.height = 200
 
     const stars: { x: number; y: number; radius: number; opacity: number }[] = []
 
     // Create fewer stars for the divider
-    for (let i = 0; i < 30; i++) {
+    for (let i = 0; i < 100; i++) {
       stars.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,

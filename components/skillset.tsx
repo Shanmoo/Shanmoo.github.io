@@ -17,7 +17,7 @@ export default function Skillset() {
         </ScrollAnimationWrapper>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {skills.map((skill, index) => (
-            <ScrollAnimationWrapper key={skill.name} delay={index * 200}>
+            <ScrollAnimationWrapper key={skill.name} delay={index * 600}>
               <div className="bg-gray-900 p-6 rounded-lg">
                 <skill.icon className="w-12 h-12 mb-4 text-columbia-blue" />
                 <h3 className="text-xl font-semibold mb-2">{skill.name}</h3>
